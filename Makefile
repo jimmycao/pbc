@@ -9,7 +9,7 @@ BUILD = build
 LIBSRCS = context.c varint.c array.c pattern.c register.c proto.c map.c alloc.c rmessage.c wmessage.c bootstrap.c stringpool.c decode.c
 LIBNAME = libpbc.a
 
-TESTSRCS = addressbook.c pattern.c pbc.c float.c map.c test.c decode.c
+TESTSRCS = addressbook.c pattern.c pbc.c float.c map.c test.c decode.c test_j0.c test_j1.c
 PROTOSRCS = addressbook.proto descriptor.proto float.proto test.proto
 
 BUILD_O = $(BUILD)/o
